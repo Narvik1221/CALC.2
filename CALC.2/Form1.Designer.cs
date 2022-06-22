@@ -145,9 +145,9 @@
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(78, 42);
             this.button11.TabIndex = 11;
-            this.button11.Text = "button11";
+            this.button11.Text = "x^y";
             this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.Form1_Click);
+            this.button11.Click += new System.EventHandler(this.Form1_Click_2);
             // 
             // button12
             // 
@@ -165,9 +165,9 @@
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(78, 42);
             this.button13.TabIndex = 13;
-            this.button13.Text = "button13";
+            this.button13.Text = "Xср.";
             this.button13.UseVisualStyleBackColor = true;
-            this.button13.Click += new System.EventHandler(this.Form1_Click);
+            this.button13.Click += new System.EventHandler(this.Form1_Click_2);
             // 
             // button15
             // 

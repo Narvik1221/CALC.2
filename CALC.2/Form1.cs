@@ -60,6 +60,15 @@ namespace CALC._2
             {
                 res = dn1 / dn2;
             }
+            else if (D == "Xñð.")
+            {
+                res = (dn1 + dn2)/2;
+            }
+            else if (D == "x^y")
+            {
+                res =Math.Pow(dn1,dn2);
+            }
+            
             D = "=";
             n2 = true;
             textBox1.Text = res.ToString();
